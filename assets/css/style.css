@@ -22,6 +22,11 @@ label{
 .ketqua{
   width:17%;
   height:20%;
-  border:1px solid lightgray;
+  border:1px solid white;
   margin-left:25.2%;
+}
+
+h1{
+ text-align:center;
+ color:#08f;
 }
