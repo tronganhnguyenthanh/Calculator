@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="main">
+	  <div class="uk-container">
+		  <div class="uk-column-1-1@s uk-column-1-1@m uk-column-1-1@l">
+		   	  <form>
+				 <fieldset class="uk-fieldset">
+				     <legend class="uk-legend">Calculator</legend>
+				     <div class="uk-margin">
+				       <label>First number</label>
+				       <input class="uk-input" type="text" placeholder="Input your first number" id="fn" required>
+				     </div>
+				     <div class="uk-margin">
+				       <label>Second number</label>
+				       <input class="uk-input" type="text" placeholder="Input your second number" id="sn" required>
+				     </div>
+				     <div class="uk-margin">
+				       <label>Third number</label>
+				       <input class="uk-input" type="text" placeholder="Input your third number" id="tn"
+				       required>
+				     </div>
+				     <div class="uk-margin">
+				       <label>Fourth number</label>
+				       <input class="uk-input" type="text" placeholder="Input your fourth number" id="fon"required>
+				     </div>
+				     <div class="uk-flex uk-flex-center uk-padding">
+					     <button class="uk-button uk-button-primary" onclick="Add4Numbers()">
+					     	+
+					     </button>
+					     <button class="uk-button uk-button-secondary" onclick="Substract4Numbers()">
+					     	-
+					     </button>
+					     <button class="uk-button uk-button-danger" onclick="Multiply4Numbers()">
+					     	*
+					     </button>
+					     <button class="uk-button uk-button-primary" onclick="Devide4Numbers()">
+					     	/
+					     </button>
+				 	 </div>
+				 </fieldset>
+			  </form>
+		  </div>
+	  </div>
+  </div>
+  <div class="uk-flex uk-flex-center">
+  	 <h2 class="uk-margin-left">Result</h2>
+	 <div class="ketqua">
+	   <h1 id="result"></h1>
+	 </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</html>

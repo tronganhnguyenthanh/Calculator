@@ -1,0 +1,27 @@
+.main{
+  width:50%;
+  height:auto;
+  border:1px solid lightgray;
+  margin-left:25%;
+  margin-top:2%;
+  background-color:purple;
+}
+
+.uk-input{
+  border-radius:20px;
+}
+
+.uk-legend{
+  color:white;
+}
+
+label{
+ color:silver;
+}
+
+.ketqua{
+  width:17%;
+  height:20%;
+  border:1px solid lightgray;
+  margin-left:25.2%;
+}
